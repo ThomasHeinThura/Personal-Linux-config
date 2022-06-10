@@ -59,3 +59,13 @@ After that you can local with cd command and run
 
 When doing side to side comparsion to windows, performance is nearly similar but the utlization of gpu is much higher is windows <nearly 100%> and take 10GB of GPU memory. Meanwhile Linux <archo linux> take 30-40% gpu utilization with 10GB of GPU memory.
 
+To backup the pacman package
+		
+		sudo pacman -Qqe > my_package.txt 
+or
+		
+		sudo pacman -Q > my_package.txt
+
+to install backup package
+	
+		sudo pacman -S - < my_package.txt
