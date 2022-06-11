@@ -1,16 +1,17 @@
 
-### The Projects is mainly focus to reuse linux config when linux has installed. 
+### The Project mainly focus to reuse linux config when linux has installed. 
 
-Projects include multiple config files that I search online and re-config for my own personal tastes. Many files are from dt and Titus linux config and re-config. If you use I encourage you to re-configure the file according to your tastes.
+Project include multiple config files that I search online and re-config for my own personal tastes. Many files are from Dt and Titus (youtuber) linux config and re-config. If you use, I encourage you to re-configure the file according to your tastes. You don't necessary need to download all of my files. Just download the config what you need. If you download the config with git clone. I recommend you to move to ~/.config folder
+Most of awesome windows manager shortcuts are cooment out because I think it is un-necessary and too many shortcuts to remember.  
+
 
 ![This is an image](https://github.com/ThomasHeinThura/Personal-Linux-config/blob/master/screenshot/DeepinScreenshot_select-area_20220608215230.png)
 
 ![This is an image](https://github.com/ThomasHeinThura/Personal-Linux-config/blob/master/screenshot/DeepinScreenshot_select-area_20220608215318.png)
 
-# Distrobution - Arcolinux already yay.aur has already installed , also arcolinux mirror include.
+# Distrobution - Arcolinux with yay.aur arcolinux mirror include.
 ## Apps I use
-
-*Windows manager* &nbsp;	- awesome (config file inclued), rofi (for prompt run use> <dmenu theme is favourite)  
+*Windows manager* &nbsp;	- awesome (config file inclued), rofi (for prompt run use) (dmenu theme is favourite)  
 *Txt Editor* 			- vim , nano (command line) emacs (GUI) (doom.d config file include)  
 *IDE* 				- pycharm_community_ediiton , octave , Android Studio  
 *Browser*	     		- Firebox or Opera  
