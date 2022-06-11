@@ -71,8 +71,8 @@ local terminal          = "alacritty"
 
 -- awesome variables
 awful.util.terminal = terminal
---awful.util.tagnames = { " DEV ", " WWW ", " SYS ", " DOC ", " VBOX ", " CHAT ", " MUS ", " VID ", " GFX " }
-awful.util.tagnames = { " HanLinn's WorkStation "}
+--awful.util.tagnames = { " DEV ", " WWW ", " SYS ", " DOC ", " VBOX ", " CHAT ", " MUS ", " VID ", " GFX " }   --multi-tab
+awful.util.tagnames = { " HanLinn's WorkStation "}  --add whatever you like this is tag settings
 awful.layout.suit.tile.left.mirror = true
 awful.layout.layouts = {
     awful.layout.suit.tile,
@@ -204,7 +204,7 @@ globalkeys = my_table.join(
               {description = "destroy all notifications", group = "hotkeys"}),
 
     -- My applications (Super+Alt+Key)
-    awful.key({ modkey,     }, "c", function () awful.util.spawn( "emacsclient -c -a 'emacs'" ) end, {description = "emacs" , group = "terminal apps" }),
+    awful.key({ modkey,           }, "c", function () awful.util.spawn( "emacsclient -c -a 'emacs'" ) end, {description = "emacs" , group = "terminal apps" }),
     awful.key({ modkey,           }, "b", function () awful.spawn( "firefox" )                 end, {description = "firefox browser", group = "MyApp"}),
     awful.key({ modkey,           }, "e", function () awful.spawn( "nemo" )                    end, {description = "nemo file browser", group = "MyApp"}),
     -- screenshots
