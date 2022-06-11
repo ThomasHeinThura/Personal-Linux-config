@@ -1,5 +1,7 @@
 
-The Projects is mainly focus to reuse linux config when linux has installed. 
+### The Projects is mainly focus to reuse linux config when linux has installed. 
+
+Projects include multiple config files that I search online and re-config for my own personal tastes. Many files are from dt and Titus linux config and re-config. If you use I encourage you to re-configure the file according to your tastes.
 
 ![This is an image](https://github.com/ThomasHeinThura/Personal-Linux-config/blob/master/screenshot/DeepinScreenshot_select-area_20220608215230.png)
 
@@ -8,44 +10,33 @@ The Projects is mainly focus to reuse linux config when linux has installed.
 # Distrobution - Arcolinux already yay.aur has already installed , also arcolinux mirror include.
 ## Apps I use
 
-*Windows manager* &nbsp;	-> awesome (config file inclued), rofi (for prompt run use> <dmenu theme is favourite)  
-*Txt Editor*&nbsp; &nbsp; &nbsp; -> vim , nano (command line) emacs (GUI) (doom.d config file include)  
-*IDE* 				-> pycharm_community_ediiton , octave , Android Studio  
-*Browser*	     		-> Firebox or Opera  
-*Player*  			-> vlc player  
-*File manager*			-> nemo and its extentions(archive, termianl inside fm) , pcmanfm (GuI) , ranger (command line)  
-*Termainal* 			-> alacritty (termianl emulator)(config include) , fish (config include) -> dependency = starship , exa   
-*Graphic Desgin*		-> Blender   
-	
-Network			     	- Networkmanager and samba
-	
-fancontrol			- nvfancontrol for nvidia gpu , lmsensor (arch wiki //simplily// sensordetech, sensors, pwconfig)
-	
-Backup				- timeshift (can only install when yay is avalible)
-	
-audio				- pluse audio , alsa-utils
-	
-fiel share and donwload          - tansmission-qt
-	
-chat 				- telegram
-	
-screenshot and photo view	- deepin-screenshot and deepin-image-viewer
-	
-sensors data checking		- htop (cpu only), nvtop (gpu only) , gotop (cpu+gpu) (cli) , conky (GUI)(config file include)
-	
-login manager			- Lightdm or ssdm (ssdm-candy is fav for now)
-	
-customize linux			- nvidia driver (to activate nvfancontrol "/etc/x11/xorg.connf.d/30.nvidia.conf" need to modify) 
+*Windows manager* &nbsp;	- awesome (config file inclued), rofi (for prompt run use> <dmenu theme is favourite)  
+*Txt Editor* 			- vim , nano (command line) emacs (GUI) (doom.d config file include)  
+*IDE* 				- pycharm_community_ediiton , octave , Android Studio  
+*Browser*	     		- Firebox or Opera  
+*Player*  			- vlc player  
+*File manager*			- nemo and its extentions(archive, termianl inside fm) , pcmanfm (GuI) , ranger (command line)  
+*Termainal* 			- alacritty (termianl emulator)(config include) , fish (config include) -> dependency = starship , exa   
+*Graphic Desgin*		- Blender   
+*Network*		     	- Networkmanager and samba  
+*fancontrol*			- nvfancontrol for nvidia gpu , lmsensor (arch wiki //simplily// sensordetech, sensors, pwconfig)  
+*Backup*			- timeshift (can only install when yay is avalible)  
+*Audio*				- pluse audio , alsa-utils 
+*File share and donwload*       - tansmission-qt  
+*Chat* 				- telegram  
+*Screenshot and photo view*	- deepin-screenshot and deepin-image-viewer 
+*Sensors data checking*		- htop (cpu only), nvtop (gpu only) , gotop (cpu+gpu) (cli) , conky (GUI)(config file include)  
+*login manager*			- Lightdm or ssdm (ssdm-candy is fav for now)  
+*Customize linux*		- nvidia driver (to activate nvfancontrol "/etc/x11/xorg.connf.d/30.nvidia.conf" need to modify) 
 			        - nitrogen (for wallpaper), picom (for background transparent)(config include)
-		     		- neofetch or archey4 (install with yay)
+		     		- neofetch or archey4 (install with yay), unimatrix.
 	
 
 ## For machine learning and Deep Learning
 Linux is good choice for ml and dl because of its ease to install cuda and driver.
-For now, Arch and its distros can be down so easliy to install nvidia driver, cuda and other. <test file include>
+For now, Arch and its distros can be download requirements and so easliy to install nvidia driver, cuda and other. (test file include)
 
-Installation of nvidia driver, cuda, cudnn, tensorflow-cuda, python-cuda, python-tensorflow-cuda with just one line. 
-	[$sudo pacman -S  <things to install>] 
+Installation of nvidia driver, cuda, cudnn, tensorflow-cuda, python-cuda, python-tensorflow-cuda with just one line. [ $sudo pacman -S  (things to install) ] 
 	
 		sudo pacman -S nvidia cuda cudnn tensorflow-cuda python-cuda python-tensorflow-cuda python-pip
 	
