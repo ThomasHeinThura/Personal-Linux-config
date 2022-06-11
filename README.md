@@ -2,35 +2,37 @@
 ### The Project mainly focus to reuse linux config when linux has installed. 
 
 Project include multiple config files that I search online and re-config for my own personal tastes. Many files are from Dt and Titus (youtuber) linux config and re-config. If you use, I encourage you to re-configure the file according to your tastes. You don't necessary need to download all of my files. Just download the config what you need. If you download the config with git clone. I recommend you to move to ~/.config folder
-Most of awesome windows manager shortcuts are cooment out because I think it is un-necessary and too many shortcuts to remember.  
+Most of awesome windows manager shortcuts are cooment out because I think it is un-necessary and too many shortcuts to remember. 
 
-
-![This is an image](https://github.com/ThomasHeinThura/Personal-Linux-config/blob/master/screenshot/DeepinScreenshot_select-area_20220608215230.png)
-
-![This is an image](https://github.com/ThomasHeinThura/Personal-Linux-config/blob/master/screenshot/DeepinScreenshot_select-area_20220608215318.png)
+### Login ( ssdm-candy )
+![This is an image of login](https://github.com/ThomasHeinThura/Personal-Linux-config/blob/master/screenshot/DeepinScreenshot_select-area_20220611121434.png)
+### Screen 1 (neofetch, ranger, vim and conky)
+![This is an image of Scrren 1](https://github.com/ThomasHeinThura/Personal-Linux-config/blob/master/screenshot/DeepinScreenshot_select-area_20220608215230.png)
+### Screen 2 (unimatrix -s 90)
+![This is an image of Screen 2](https://github.com/ThomasHeinThura/Personal-Linux-config/blob/master/screenshot/DeepinScreenshot_select-area_20220608215318.png)
 
 # Distrobution - Arcolinux with yay.aur arcolinux mirror include.
 ## Apps I use
-*Windows manager* &nbsp;	- awesome (config file inclued), rofi (for prompt run use) (dmenu theme is favourite)  
-*Txt Editor* 			- vim , nano (command line) emacs (GUI) (doom.d config file include)  
-*IDE* 				- pycharm_community_ediiton , octave , Android Studio  
-*Browser*	     		- Firebox or Opera  
-*Player*  			- vlc player  
-*File manager*			- nemo and its extentions(archive, termianl inside fm) , pcmanfm (GuI) , ranger (command line)  
-*Termainal* 			- alacritty (termianl emulator)(config include) , fish (config include) -> dependency = starship , exa   
-*Graphic Desgin*		- Blender   
-*Network*		     	- Networkmanager and samba  
-*fancontrol*			- nvfancontrol for nvidia gpu , lmsensor (arch wiki //simplily// sensordetech, sensors, pwconfig)  
-*Backup*			- timeshift (can only install when yay is avalible)  
-*Audio*				- pluse audio , alsa-utils 
-*File share and donwload*       - tansmission-qt  
-*Chat* 				- telegram  
-*Screenshot and photo view*	- deepin-screenshot and deepin-image-viewer 
-*Sensors data checking*		- htop (cpu only), nvtop (gpu only) , gotop (cpu+gpu) (cli) , conky (GUI)(config file include)  
-*login manager*			- Lightdm or ssdm (ssdm-candy is fav for now)  
-*Customize linux*		- nvidia driver (to activate nvfancontrol "/etc/x11/xorg.connf.d/30.nvidia.conf" need to modify) 
-			        - nitrogen (for wallpaper), picom (for background transparent)(config include)
-		     		- neofetch or archey4 (install with yay), unimatrix.
+**Windows manager** &nbsp;	- awesome (config file inclued), rofi (for prompt run use) (dmenu theme is favourite)  
+**Txt Editor** 			- vim , nano (command line) emacs (GUI) (doom.d config file include)  
+**IDE** 			- pycharm_community_ediiton , octave , Android Studio  
+**Browser**	     		- Firebox or Opera  
+**Player**  			- vlc player  
+**File manager**		- nemo and its extentions(archive, termianl inside fm) , pcmanfm (GuI) , ranger (command line)  
+**Termainal** 			- alacritty (termianl emulator)(config include) , fish (config include) -> dependency = starship , exa   
+**Graphic Desgin**		- Blender   
+**Network**		     	- Networkmanager and samba  
+**fancontrol**			- nvfancontrol for nvidia gpu , lmsensor (arch wiki //simplily// sensordetech, sensors, pwconfig)  
+**Backup**			- timeshift (can only install when yay is avalible)  
+**Audio**			- pluse audio , alsa-utils   
+**File share and donwload**     - tansmission-qt     
+**Chat** 			- telegram    
+**Screenshot and photo view**	- deepin-screenshot and deepin-image-viewer   
+**Sensors data checking**	- htop (cpu only), nvtop (gpu only) , gotop (cpu+gpu) (cli) , conky (GUI)(config file include)  
+**login manager**		- Lightdm or ssdm (ssdm-candy is fav for now) // ssdm configuration software is nice to have because it can configure with GUI  
+**Customize linux**		- nvidia driver (to activate nvfancontrol "/etc/x11/xorg.connf.d/30.nvidia.conf" need to modify)   
+			        - nitrogen (for wallpaper), picom (for background transparent)(config include)   
+		     		- neofetch or archey4 (install with yay), unimatrix.  
 	
 
 ## For machine learning and Deep Learning
