@@ -34,9 +34,9 @@ The Project includes multiple config files that I search online and re-config fo
 **Other Packages**		- nvidia driver , nitrogen (for wallpaper), picom (for background transparent)(config include) , neofetch or archey4 (install with yay), unimatrix.  
 				
 ### Notes:
-- Most of `awesome` windows manager shortcuts are commented out because I think it is un-necessary and too many shortcuts to remember. If you want them uncomment them out. 
-- If you use multi-screen like me, Use `arandr` to save `.sh` file. Then, add in sddm configure setting if you use `sddm`. For other ways, searching in Google can get more answers.
-- I use vim txt editor. But you can find many other GUI out there.
+- Most of `awesome` windows manager shortcuts are commented out because I think it is un-necessary and too many shortcuts to remember. If you want them uncomment them out.   
+- If you use multi-screen like me, Use `arandr` to save `.sh` file. Then, add in sddm configure setting if you use `sddm`. For other ways, searching in Google can get more answers.  
+- I use vim txt editor. But you can find many other GUI out there.  
 - You will find etc folder in my project. This is for `nvfancontrol`. In some case `nvfancontrol` need to add some config file. Then add `30.nvidia.conf` to `"/etc/X11/xorg.conf.d/"` and `Xwarrper.conf` to `"/etc/X11/"`. In multi-monitor and multi-gpu case, I recommend adding `10.monitor.conf` and `modesetting.conf` file to `"/etc/X11/xorg.conf.d/."` Then add `nvfancontrol.conf` in `"~/.config/"`. This will use nvidia-gpu fan according to Temperature. Other files in etc/X11/ are not need for your config. For more knowledge, search in arch wiki about intel gpu, xorg, xinitrc, nvidia gpu.  
 
 - For other fan controlling, `lm_sensor` software is used. This is from arch wiki fan speed control (https://wiki.archlinux.org/title/fan_speed_control). I simply run these commend(`sensors-detect`, `sensors`, `pwmconfig`) line by line in terminal and manually config.  
@@ -44,12 +44,12 @@ The Project includes multiple config files that I search online and re-config fo
 - **Backup is IMPORTANT!!!** I use **timeshift** software to backup the system.  
  
 **Conky**
-- I reconfigure conky config file. Main nvidia gpu statuses are exported.(you need to install nvidia and nividia-settings package.) I use gpu to train ML and DL data, so these statuses are necessary for me. If you don't want them, then comment them out.
+- I reconfigure conky config file. Main nvidia gpu statuses are exported.(you need to install nvidia and nividia-settings package.) I use gpu to train ML and DL data, so these statuses are necessary for me. If you don't want them, then comment them out.  
 - Network card also need to reconfigure according to your card. `ip addr` command can find your network name starting with `enp`. Disk drives can also search with `sudo fdisk -l` command, and add `/dev/sd*` to config You can add many disks you want. I also command out single core cpu useage.  
 
 ## For machine learning and Deep Learning
-Linux is good choice for ml and dl because of its ease to install cuda and driver.
-For now, Arch and its distros can be download requirements(nvidia driver, cuda and other) so easily. (test file include)
+Linux is good choice for ml and dl because of its ease to install cuda and driver.  
+For now, Arch and its distros can be download requirements(nvidia driver, cuda and other) so easily. (test file include)  
 
 Installation of nvidia driver, cuda, cudnn, tensorflow-cuda, python-cuda, python-tensorflow-cuda and python-pip with just one line. [`$sudo pacman -S` (things to install)] 
 	
