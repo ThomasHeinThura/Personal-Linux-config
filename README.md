@@ -1,26 +1,21 @@
 
 The Projects is mainly focus to reuse linux config when linux has installed. 
 
+![This is an image](https://github.com/ThomasHeinThura/Personal-Linux-config/blob/master/screenshot/DeepinScreenshot_select-area_20220608215230.png)
 
+![This is an image](https://github.com/ThomasHeinThura/Personal-Linux-config/blob/master/screenshot/DeepinScreenshot_select-area_20220608215318.png)
 
 # Distrobution - Arcolinux already yay.aur has already installed , also arcolinux mirror include.
 ## Apps I use
 
-Windows manager			-> awesome (config file inclued), rofi (for prompt run use> <dmenu theme is favourite)
-
-Txt Editor			-> vim , nano (command line) emacs (GUI) (doom.d config file include)
-
-IDE 				-> pycharm , clion , octave , Android Studio
-	
-Browser		     		-> Firebox or Opera
-	
-Player 	     			-> vlc player
-	
-File manager			-> nemo and its extentions(archive, termianl inside fm) , pcmanfm (GuI) , ranger (command line)
-	
-Termainal 			- alacritty (termianl emulator)(config include) , fish (config include) -> dependency = starship , exa 
-	
-Graphic Desgin			- Blender 
+*Windows manager* &nbsp;	-> awesome (config file inclued), rofi (for prompt run use> <dmenu theme is favourite)  
+*Txt Editor*&nbsp; &nbsp; &nbsp; -> vim , nano (command line) emacs (GUI) (doom.d config file include)  
+*IDE* 				-> pycharm_community_ediiton , octave , Android Studio  
+*Browser*	     		-> Firebox or Opera  
+*Player*  			-> vlc player  
+*File manager*			-> nemo and its extentions(archive, termianl inside fm) , pcmanfm (GuI) , ranger (command line)  
+*Termainal* 			-> alacritty (termianl emulator)(config include) , fish (config include) -> dependency = starship , exa   
+*Graphic Desgin*		-> Blender   
 	
 Network			     	- Networkmanager and samba
 	
