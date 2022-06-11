@@ -53,7 +53,12 @@ Installation of nvidia driver, cuda, cudnn, tensorflow-cuda, python-cuda, python
 	
 		sudo pacman -S nvidia cuda cudnn tensorflow-cuda python-cuda python-tensorflow-cuda python-pip
 	
-After that you can local with cd command and run
+Make sure you have numpy and matplotlib. check with pip list.
+		
+		pip list
+
+If there is no matplotlib and numpy, install with pip instsall numpy and matplotlib. 
+After that you can locate with cd command and run
 	
 		python tensor_test.py
 
