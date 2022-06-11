@@ -1,9 +1,10 @@
 
-The Projects is mainly focus to back and reused of linux config when linux has installed
+The Projects is mainly focus to reuse linux config when linux has installed. 
 
-Distrobution - Arcolinux already yay.aur has already installed , also arcolinux mirror include.
 
-Apps I use
+
+# Distrobution - Arcolinux already yay.aur has already installed , also arcolinux mirror include.
+## Apps I use
 
 Windows manager			-> awesome (config file inclued), rofi (for prompt run use> <dmenu theme is favourite)
 
@@ -44,7 +45,7 @@ customize linux			- nvidia driver (to activate nvfancontrol "/etc/x11/xorg.connf
 		     		- neofetch or archey4 (install with yay)
 	
 
-For machine learning and Deep Learning
+## For machine learning and Deep Learning
 Linux is good choice for ml and dl because of its ease to install cuda and driver.
 For now, Arch and its distros can be down so easliy to install nvidia driver, cuda and other. <test file include>
 
