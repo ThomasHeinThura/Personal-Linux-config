@@ -1,1 +1,1 @@
-**I don't own any of these wallpapers. This is for personal use
+**I don't own any of these wallpapers. This is for personal use**
