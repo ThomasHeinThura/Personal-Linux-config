@@ -1,0 +1,335 @@
+InitConnectionLimits: MaxClients = 2048
+
+Xvnc TigerVNC 1.10.0 - built Apr  6 2022 04:32:49
+Copyright (C) 1999-2019 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12000000, The X.Org Foundation
+
+
+Fri Aug 12 13:15:36 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5902
+ vncext:      created VNC server for screen 0
+Sync Extension 3.1
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/misc/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/TTF/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/OTF/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/Type1/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/100dpi/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/75dpi/, removing from list!
+Popen: `"/data/data/com.termux/files/usr/bin/xkbcomp" -w 1 "-R/data/data/com.termux/files/usr/share/X11/xkb" -xkm "-" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "/data/data/com.termux/files/usr/tmp/server-2.xkm"', fp = 0xb40000716bce9c18
+Pclose: fp = 0xb40000716bce9c18
+Loaded XKB keymap /data/data/com.termux/files/usr/tmp/server-2.xkm, defined=0x7f
+client(0): Reserved pid(22637).
+client(0): Reserved cmdname(/data/data/com.termux/files/usr/bin/Xvnc) and cmdargs(:2 -geometry 1600x1000 -auth /data/data/com.termux/files/home/.Xauthority -desktop localhost:2 (u0_a263) -pn -rfbauth /data/data/com.termux/files/home/.vnc/passwd -rfbport 5902 -rfbwait 3000).
+client(200000): Reserved pid(22648).
+client(200000): Reserved cmdname(/data/data/com.termux/files/usr/bin/openbox) and cmdargs(--startup /data/data/com.termux/files/usr/libexec/openbox-autostart OPENBO).
+AllocNewConnection: client index = 1, socket fd = 8
+Obt-Message: Failed to open an Input Method
+Openbox-Message: X server does not support locale.
+Openbox-Message: Cannot set locale modifiers for the X server.
+client(400000): Reserved pid(22664).
+client(400000): Reserved cmdname(feh) and cmdargs(--no-fehbg --bg-scale /data/data/com.termux/files/home/.local/share/backgrounds/Slime.jp).
+AllocNewConnection: client index = 2, socket fd = 9
+Not using O_TMPFILE
+client(600000): Reserved pid(22664).
+client(600000): Reserved cmdname(feh) and cmdargs(--no-fehbg --bg-scale /data/data/com.termux/files/home/.local/share/backgrounds/Slime.jp).
+AllocNewConnection: client index = 3, socket fd = 10
+client(400000): Released pid(22664).
+client(400000): Released cmdline(feh) and cmdargs(--no-fehbg --bg-scale /data/data/com.termux/files/home/.local/share/backgrounds/Slime.jp).
+client(400000): Reserved pid(22665).
+client(400000): Reserved cmdname(xfsettings) and cmdargs(NULL).
+AllocNewConnection: client index = 2, socket fd = 9
+client(800000): Reserved pid(22669).
+client(800000): Reserved cmdname(xcompmgr) and cmdargs(-c -r 8 -o 0.40 -l -12 -t -1).
+AllocNewConnection: client index = 4, socket fd = 10
+client(a00000): Reserved pid(22671).
+client(a00000): Reserved cmdname(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+AllocNewConnection: client index = 5, socket fd = 11
+client(c00000): Reserved pid(22674).
+client(c00000): Reserved cmdname(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+AllocNewConnection: client index = 6, socket fd = 12
+client(e00000): Reserved pid(22665).
+client(e00000): Reserved cmdname(xfsettings) and cmdargs(NULL).
+AllocNewConnection: client index = 7, socket fd = 13
+client(e00000): Released pid(22665).
+client(e00000): Released cmdline(xfsettings) and cmdargs(NULL).
+client(e00000): Reserved pid(22665).
+client(e00000): Reserved cmdname(xfsettings) and cmdargs(NULL).
+AllocNewConnection: client index = 7, socket fd = 13
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+client(e00000): Released pid(22665).
+client(e00000): Released cmdline(xfsettings) and cmdargs(NULL).
+fdsan: attempted to close file descriptor 4, expected to be unowned, actually owned by FILE* 0x7d1f21c018
+/data/data/com.termux/files/home/.config/polybar/forest/launch.sh: line 4: 22691 Aborted                 killall -q polybar
+client(e00000): Reserved pid(22699).
+client(e00000): Reserved cmdname(polybar) and cmdargs(main -c /data/data/com.termux/files/home/.config/polybar/forest/config.in).
+AllocNewConnection: client index = 7, socket fd = 13
+polybar|notice:  Parsing config file: /data/data/com.termux/files/home/.config/polybar/forest/config.ini
+client(1000000): Reserved pid(22708).
+client(1000000): Reserved cmdname(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+AllocNewConnection: client index = 8, socket fd = 14
+polybar|warn:  No monitor specified, using "VNC-0"
+client(1000000): Released pid(22708).
+client(1000000): Released cmdline(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+polybar|warn:  The config parameter 'settings.throttle-input-for' is deprecated, it will be removed in the future. Please remove it from your config
+polybar|warn:  The config parameter 'settings.throttle-output' is deprecated, it will be removed in the future. Please remove it from your config
+polybar|warn:  The config parameter 'settings.throttle-output-for' is deprecated, it will be removed in the future. Please remove it from your config
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+client(1000000): Reserved pid(22701).
+client(1000000): Reserved cmdname(thunar) and cmdargs(--daemo).
+AllocNewConnection: client index = 8, socket fd = 14
+ERROR: openbox-xdg-autostart requires PyXDG to be installed
+
+
+polybar|notice:  pulseaudio: using default sink OpenSL_ES_sink
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|notice:  Loaded font "Terminus:Medium:size=9" (name=Terminus, offset=2, file=/data/data/com.termux/files/home/.fonts/bitmaps/terminus/ter-u12n.otb)
+polybar|notice:  Loaded font "waffle:size=12" (name=waffle, offset=2, file=/data/data/com.termux/files/home/.fonts/icons/waffle.bdf)
+polybar|error: tray: Failed to put tray above 0x0e00001 in the stack (XCB_MATCH (8))
+
+Fri Aug 12 13:19:46 2022
+ Connections: accepted: 127.0.0.1::54000
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VeNCrypt(19)
+ SVeNCrypt:   Client requests security type TLSVnc (258)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+Obt-Message: Failed to open an Input Method
+awk: cmd. line:7: warning: regexp escape sequence `\"' is not a known regexp operator
+awk: cmd. line:10: warning: regexp escape sequence `\&' is not a known regexp operator
+awk: cmd. line:10: warning: regexp escape sequence `\;' is not a known regexp operator
+Can't locate URI/Escape.pm in @INC (you may need to install the URI::Escape module) (@INC contains: /data/data/com.termux/files/usr/lib/perl5/site_perl/5.36.0/aarch64-android /data/data/com.termux/files/usr/lib/perl5/site_perl/5.36.0 /data/data/com.termux/files/usr/lib/perl5/5.36.0/aarch64-android /data/data/com.termux/files/usr/lib/perl5/5.36.0).
+BEGIN failed--compilation aborted.
+client(1200000): Reserved pid(24898).
+client(1200000): Reserved cmdname(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+AllocNewConnection: client index = 9, socket fd = 17
+client(1200000): Released pid(24898).
+client(1200000): Released cmdline(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+client(1200000): Reserved pid(24896).
+client(1200000): Reserved cmdname(xfce4-termina) and cmdargs(NULL).
+AllocNewConnection: client index = 9, socket fd = 17
+client(1400000): Reserved pid(24906).
+client(1400000): Reserved cmdname(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+AllocNewConnection: client index = 10, socket fd = 18
+client(1400000): Released pid(24906).
+client(1400000): Released cmdline(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+client(1200000): Released pid(24896).
+client(1200000): Released cmdline(xfce4-termina) and cmdargs(NULL).
+client(1200000): Reserved pid(25651).
+client(1200000): Reserved cmdname(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+AllocNewConnection: client index = 9, socket fd = 17
+client(1200000): Released pid(25651).
+client(1200000): Released cmdline(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+client(1200000): Reserved pid(25649).
+client(1200000): Reserved cmdname(xfce4-termina) and cmdargs(NULL).
+AllocNewConnection: client index = 9, socket fd = 17
+client(1400000): Reserved pid(25653).
+client(1400000): Reserved cmdname(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+AllocNewConnection: client index = 10, socket fd = 18
+client(1400000): Released pid(25653).
+client(1400000): Released cmdline(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+client(1200000): Released pid(25649).
+client(1200000): Released cmdline(xfce4-termina) and cmdargs(NULL).
+client(1200000): Reserved pid(26877).
+client(1200000): Reserved cmdname(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+AllocNewConnection: client index = 9, socket fd = 17
+client(1200000): Released pid(26877).
+client(1200000): Released cmdline(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+
+(thunar:22701): Gtk-CRITICAL **: 13:24:15.798: gtk_widget_grab_focus: assertion 'GTK_IS_WIDGET (widget)' failed
+     Video --vid=1 (*) (h264 1920x1080 24.005fps)
+ (+) Audio --aid=1 --alang=eng (*) (aac 2ch 44100Hz)
+AO: [opensles] 44100Hz stereo 2ch float
+[KA: 00:00:00 / 00:03:21 (0%)[KA: 00:00:01 / 00:03:21 (0%)[KA: 00:00:01 / 00:03:21 (1%)[KA: 00:00:02 / 00:03:21 (1%)[KA: 00:00:03 / 00:03:21 (1%)[KA: 00:00:03 / 00:03:21 (2%)[KA: 00:00:04 / 00:03:21 (2%)[KA: 00:00:05 / 00:03:21 (2%)[KA: 00:00:05 / 00:03:21 (3%)[KA: 00:00:06 / 00:03:21 (3%)[KA: 00:00:07 / 00:03:21 (3%)[KA: 00:00:07 / 00:03:21 (4%)[KA: 00:00:08 / 00:03:21 (4%)[KA: 00:00:09 / 00:03:21 (4%)[KA: 00:00:09 / 00:03:21 (5%)[KA: 00:00:10 / 00:03:21 (5%)client(1200000): Reserved pid(27254).
+client(1200000): Reserved cmdname(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+AllocNewConnection: client index = 9, socket fd = 17
+client(1200000): Released pid(27254).
+client(1200000): Released cmdline(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+client(1200000): Reserved pid(27252).
+client(1200000): Reserved cmdname(xfce4-termina) and cmdargs(NULL).
+AllocNewConnection: client index = 9, socket fd = 17
+client(1400000): Reserved pid(27259).
+client(1400000): Reserved cmdname(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+AllocNewConnection: client index = 10, socket fd = 19
+client(1400000): Released pid(27259).
+client(1400000): Released cmdline(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+[KA: 00:00:11 / 00:03:21 (5%)[KA: 00:00:11 / 00:03:21 (6%)[KA: 00:00:12 / 00:03:21 (6%)[KA: 00:00:13 / 00:03:21 (6%)[KA: 00:00:13 / 00:03:21 (7%)[KA: 00:00:14 / 00:03:21 (7%)[KA: 00:00:15 / 00:03:21 (7%)[KA: 00:00:15 / 00:03:21 (8%)[KA: 00:00:16 / 00:03:21 (8%)[KA: 00:00:17 / 00:03:21 (8%)[KA: 00:00:17 / 00:03:21 (9%)[KA: 00:00:18 / 00:03:21 (9%)[KA: 00:00:19 / 00:03:21 (9%)[KA: 00:00:19 / 00:03:21 (10%)[KA: 00:00:20 / 00:03:21 (10%)[KA: 00:00:21 / 00:03:21 (10%)[KA: 00:00:21 / 00:03:21 (11%)[KA: 00:00:22 / 00:03:21 (11%)[KA: 00:00:23 / 00:03:21 (11%)[KA: 00:00:23 / 00:03:21 (12%)[KA: 00:00:24 / 00:03:21 (12%)[KA: 00:00:25 / 00:03:21 (12%)[KA: 00:00:25 / 00:03:21 (13%)[KA: 00:00:26 / 00:03:21 (13%)     Video --vid=1 [P] (png 550x550 1.000fps)
+ (+) Audio --aid=1 (mp3 2ch 44100Hz)
+File tags:
+ Artist: NEFFEX
+ Album: Grateful
+ Title: Grateful
+AO: [opensles] 44100Hz stereo 2ch float
+[KA: 00:00:00 / 00:03:02 (0%)[KA: 00:00:01 / 00:03:02 (1%)[KA: 00:00:02 / 00:03:02 (1%)[KA: 00:00:02 / 00:03:02 (2%)[KA: 00:00:03 / 00:03:02 (2%)[KA: 00:00:04 / 00:03:02 (2%)[KA: 00:00:04 / 00:03:02 (3%)[KA: 00:00:05 / 00:03:02 (3%)[KA: 00:00:06 / 00:03:02 (3%)[KA: 00:00:06 / 00:03:02 (4%)[KA: 00:00:07 / 00:03:02 (4%)[KA: 00:00:08 / 00:03:02 (4%)[KA: 00:00:08 / 00:03:02 (5%)[KA: 00:00:09 / 00:03:02 (5%)[KA: 00:00:10 / 00:03:02 (5%)[KA: 00:00:10 / 00:03:02 (6%)[KA: 00:00:11 / 00:03:02 (6%)[KA: 00:00:12 / 00:03:02 (7%)[KA: 00:00:13 / 00:03:02 (7%)[KA: 00:00:13 / 00:03:02 (8%)[KA: 00:00:14 / 00:03:02 (8%)[KA: 00:00:15 / 00:03:02 (8%)[KA: 00:00:15 / 00:03:02 (9%)[KA: 00:00:16 / 00:03:02 (9%)[KA: 00:00:17 / 00:03:02 (9%)[KA: 00:00:17 / 00:03:02 (10%)client(1200000): Released pid(27252).
+client(1200000): Released cmdline(xfce4-termina) and cmdargs(NULL).
+client(1200000): Reserved pid(27901).
+client(1200000): Reserved cmdname(netsurf-gtk3) and cmdargs(https://start.duckduckgo.com).
+AllocNewConnection: client index = 9, socket fd = 17
+client(1200000): Released pid(27901).
+client(1200000): Released cmdline(netsurf-gtk3) and cmdargs(https://start.duckduckgo.com).
+client(1200000): Reserved pid(28467).
+client(1200000): Reserved cmdname(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+AllocNewConnection: client index = 9, socket fd = 17
+client(1200000): Released pid(28467).
+client(1200000): Released cmdline(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+client(1200000): Reserved pid(28465).
+client(1200000): Reserved cmdname(xfce4-termina) and cmdargs(NULL).
+AllocNewConnection: client index = 9, socket fd = 17
+client(1400000): Reserved pid(28469).
+client(1400000): Reserved cmdname(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+AllocNewConnection: client index = 10, socket fd = 19
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+client(1400000): Released pid(28469).
+client(1400000): Released cmdline(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+client(1200000): Released pid(28465).
+client(1200000): Released cmdline(xfce4-termina) and cmdargs(NULL).
+awk: cmd. line:7: warning: regexp escape sequence `\"' is not a known regexp operator
+awk: cmd. line:10: warning: regexp escape sequence `\&' is not a known regexp operator
+awk: cmd. line:10: warning: regexp escape sequence `\;' is not a known regexp operator
+Can't locate URI/Escape.pm in @INC (you may need to install the URI::Escape module) (@INC contains: /data/data/com.termux/files/usr/lib/perl5/site_perl/5.36.0/aarch64-android /data/data/com.termux/files/usr/lib/perl5/site_perl/5.36.0 /data/data/com.termux/files/usr/lib/perl5/5.36.0/aarch64-android /data/data/com.termux/files/usr/lib/perl5/5.36.0).
+BEGIN failed--compilation aborted.
+client(1200000): Reserved pid(29035).
+client(1200000): Reserved cmdname(xfce4-appearance-setting) and cmdargs(NULL).
+AllocNewConnection: client index = 9, socket fd = 17
+client(1400000): Reserved pid(29037).
+client(1400000): Reserved cmdname(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+AllocNewConnection: client index = 10, socket fd = 19
+client(1400000): Released pid(29037).
+client(1400000): Released cmdline(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+
+(xfce4-appearance-settings:29035): Gtk-WARNING **: 13:28:03.014: Content added to the action area of a dialog using header bars
+
+(xfce4-appearance-settings:29035): Gtk-WARNING **: 13:28:03.014: Content added to the action area of a dialog using header bars
+client(1200000): Released pid(29035).
+client(1200000): Released cmdline(xfce4-appearance-setting) and cmdargs(NULL).
+client(1200000): Reserved pid(29825).
+client(1200000): Reserved cmdname(feh) and cmdargs(--bg-scale /data/data/com.termux/files/home/.local/share/backgrounds/Manhattan.jp).
+AllocNewConnection: client index = 9, socket fd = 17
+Not using O_TMPFILE
+client(1400000): Reserved pid(29825).
+client(1400000): Reserved cmdname(feh) and cmdargs(--bg-scale /data/data/com.termux/files/home/.local/share/backgrounds/Manhattan.jp).
+AllocNewConnection: client index = 10, socket fd = 19
+client(600000): Released pid(22664).
+client(600000): Released cmdline(feh) and cmdargs(--no-fehbg --bg-scale /data/data/com.termux/files/home/.local/share/backgrounds/Slime.jp).
+client(1200000): Released pid(29825).
+client(1200000): Released cmdline(feh) and cmdargs(--bg-scale /data/data/com.termux/files/home/.local/share/backgrounds/Manhattan.jp).
+fdsan: attempted to close file descriptor 4, expected to be unowned, actually owned by FILE* 0x728361c018
+/data/data/com.termux/files/home/.config/polybar/manhattan/launch.sh: line 4: 29833 Aborted                 killall -q polybar
+X connection to :2 broken (explicit kill or server shutdown).
+client(200000): Released pid(22648).
+client(200000): Released cmdline(/data/data/com.termux/files/usr/bin/openbox) and cmdargs(--startup /data/data/com.termux/files/usr/libexec/openbox-autostart OPENBO).
+client(400000): Released pid(22665).
+client(400000): Released cmdline(xfsettings) and cmdargs(NULL).
+client(800000): Released pid(22669).
+client(800000): Released cmdline(xcompmgr) and cmdargs(-c -r 8 -o 0.40 -l -12 -t -1).
+client(a00000): Released pid(22671).
+client(a00000): Released cmdline(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+client(c00000): Released pid(22674).
+client(c00000): Released cmdline(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+client(e00000): Released pid(22699).
+client(e00000): Released cmdline(polybar) and cmdargs(main -c /data/data/com.termux/files/home/.config/polybar/forest/config.in).
+client(1000000): Released pid(22701).
+client(1000000): Released cmdline(thunar) and cmdargs(--daemo).
+client(1400000): Released pid(29825).
+client(1400000): Released cmdline(feh) and cmdargs(--bg-scale /data/data/com.termux/files/home/.local/share/backgrounds/Manhattan.jp).
+XIO:  fatal IO error 11 (Try again) on X server ":2"
+      after 143089 requests (143089 known processed) with 0 events remaining.
+
+Fri Aug 12 13:28:44 2022
+ VNCSConnST:  closing 127.0.0.1::54000: Server shutdown
+ EncodeManager: Framebuffer updates: 27691
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 10.845 krects, 112.678 Mpixels
+ EncodeManager:            169.453 KiB (1:2598.22 ratio)
+ EncodeManager:     Bitmap RLE: 6.746 krects, 9.02168 Mpixels
+ EncodeManager:                 425.766 KiB (1:82.9564 ratio)
+ EncodeManager:     Indexed RLE: 21.435 krects, 144.118 Mpixels
+ EncodeManager:                  9.6905 MiB (1:56.7578 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 25.158 krects, 104.623 Mpixels
+ EncodeManager:                  74.0464 MiB (1:5.39382 ratio)
+ EncodeManager:   Total: 64.184 krects, 370.441 Mpixels
+ EncodeManager:          84.3182 MiB (1:16.7681 ratio)
+ TLS:         TLS session wasn't terminated gracefully
+ ComparingUpdateTracker: 5.36332 Gpixels in / 334.002 Mpixels out
+ ComparingUpdateTracker: (1:16.0577 ratio)
+(dix) removing device 2
+(dix) removing device 3
+(dix) removing device 5
+(dix) removing device 4
+(dix) removing device 7
+(dix) removing device 6
+client(0): Released pid(22637).
+client(0): Released cmdline(/data/data/com.termux/files/usr/bin/Xvnc) and cmdargs(:2 -geometry 1600x1000 -auth /data/data/com.termux/files/home/.Xauthority -desktop localhost:2 (u0_a263) -pn -rfbauth /data/data/com.termux/files/home/.vnc/passwd -rfbport 5902 -rfbwait 3000).
+polybar|error: Uncaught exception, shutting down: X connection error... (what: Socket, pipe or stream error)
+Failed to init libxfconf: Error spawning command line “dbus-launch --autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stderr”: Child process exited with code 1.
+Failed to init libxfconf: Error spawning command line “dbus-launch --autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stderr”: Child process exited with code 1.
+Failed to init libxfconf: Error spawning command line “dbus-launch --autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stderr”: Child process exited with code 1.
+Failed to init libxfconf: Error spawning command line “dbus-launch --autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stderr”: Child process exited with code 1.
+Openbox-Message: Failed to open the display from the DISPLAY environment variable.

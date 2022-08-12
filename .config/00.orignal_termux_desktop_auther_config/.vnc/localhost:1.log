@@ -1,0 +1,203 @@
+InitConnectionLimits: MaxClients = 2048
+
+Xvnc TigerVNC 1.10.0 - built Apr  6 2022 04:32:49
+Copyright (C) 1999-2019 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12000000, The X.Org Foundation
+
+
+Fri Aug 12 13:08:02 2022
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+Sync Extension 3.1
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/misc/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/TTF/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/OTF/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/Type1/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/100dpi/, removing from list!
+[dix] Could not init font path element /data/data/com.termux/files/usr/share/fonts/75dpi/, removing from list!
+Popen: `"/data/data/com.termux/files/usr/bin/xkbcomp" -w 1 "-R/data/data/com.termux/files/usr/share/X11/xkb" -xkm "-" -em1 "The XKEYBOARD keymap compiler (xkbcomp) reports:" -emp "> " -eml "Errors from xkbcomp are not fatal to the X server" "/data/data/com.termux/files/usr/tmp/server-1.xkm"', fp = 0xb4000072330e9c18
+Pclose: fp = 0xb4000072330e9c18
+Loaded XKB keymap /data/data/com.termux/files/usr/tmp/server-1.xkm, defined=0x7f
+client(0): Reserved pid(18056).
+client(0): Reserved cmdname(/data/data/com.termux/files/usr/bin/Xvnc) and cmdargs(:1 -geometry 1600x1000 -auth /data/data/com.termux/files/home/.Xauthority -desktop localhost:1 (u0_a263) -pn -rfbauth /data/data/com.termux/files/home/.vnc/passwd -rfbport 5901 -rfbwait 3000).
+client(200000): Reserved pid(18063).
+client(200000): Reserved cmdname(/data/data/com.termux/files/usr/bin/openbox) and cmdargs(--startup /data/data/com.termux/files/usr/libexec/openbox-autostart OPENBO).
+AllocNewConnection: client index = 1, socket fd = 8
+Obt-Message: Failed to open an Input Method
+Openbox-Message: X server does not support locale.
+Openbox-Message: Cannot set locale modifiers for the X server.
+client(400000): Reserved pid(18078).
+client(400000): Reserved cmdname(feh) and cmdargs(--no-fehbg --bg-scale /data/data/com.termux/files/home/.local/share/backgrounds/Slime.jp).
+AllocNewConnection: client index = 2, socket fd = 9
+Not using O_TMPFILE
+client(600000): Reserved pid(18078).
+client(600000): Reserved cmdname(feh) and cmdargs(--no-fehbg --bg-scale /data/data/com.termux/files/home/.local/share/backgrounds/Slime.jp).
+AllocNewConnection: client index = 3, socket fd = 10
+client(400000): Released pid(18078).
+client(400000): Released cmdline(feh) and cmdargs(--no-fehbg --bg-scale /data/data/com.termux/files/home/.local/share/backgrounds/Slime.jp).
+client(400000): Reserved pid(18083).
+client(400000): Reserved cmdname(xcompmgr) and cmdargs(-c -r 8 -o 0.40 -l -12 -t -1).
+AllocNewConnection: client index = 2, socket fd = 9
+client(800000): Reserved pid(18079).
+client(800000): Reserved cmdname(xfsettings) and cmdargs(NULL).
+AllocNewConnection: client index = 4, socket fd = 10
+client(a00000): Reserved pid(18085).
+client(a00000): Reserved cmdname(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+AllocNewConnection: client index = 5, socket fd = 11
+client(c00000): Reserved pid(18088).
+client(c00000): Reserved cmdname(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+AllocNewConnection: client index = 6, socket fd = 12
+client(e00000): Reserved pid(18079).
+client(e00000): Reserved cmdname(xfsettings) and cmdargs(NULL).
+AllocNewConnection: client index = 7, socket fd = 13
+client(e00000): Released pid(18079).
+client(e00000): Released cmdline(xfsettings) and cmdargs(NULL).
+client(e00000): Reserved pid(18079).
+client(e00000): Reserved cmdname(xfsettings) and cmdargs(NULL).
+AllocNewConnection: client index = 7, socket fd = 13
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+client(e00000): Released pid(18079).
+client(e00000): Released cmdline(xfsettings) and cmdargs(NULL).
+fdsan: attempted to close file descriptor 4, expected to be unowned, actually owned by FILE* 0x716dc1c018
+/data/data/com.termux/files/home/.config/polybar/forest/launch.sh: line 4: 18101 Aborted                 killall -q polybar
+client(e00000): Reserved pid(18117).
+client(e00000): Reserved cmdname(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+AllocNewConnection: client index = 7, socket fd = 13
+client(e00000): Released pid(18117).
+client(e00000): Released cmdline(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+client(e00000): Reserved pid(18110).
+client(e00000): Reserved cmdname(polybar) and cmdargs(main -c /data/data/com.termux/files/home/.config/polybar/forest/config.in).
+AllocNewConnection: client index = 7, socket fd = 13
+polybar|notice:  Parsing config file: /data/data/com.termux/files/home/.config/polybar/forest/config.ini
+client(1000000): Reserved pid(18111).
+client(1000000): Reserved cmdname(thunar) and cmdargs(--daemo).
+AllocNewConnection: client index = 8, socket fd = 14
+polybar|warn:  No monitor specified, using "VNC-0"
+polybar|warn:  The config parameter 'settings.throttle-input-for' is deprecated, it will be removed in the future. Please remove it from your config
+polybar|warn:  The config parameter 'settings.throttle-output' is deprecated, it will be removed in the future. Please remove it from your config
+polybar|warn:  The config parameter 'settings.throttle-output-for' is deprecated, it will be removed in the future. Please remove it from your config
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|notice:  pulseaudio: using default sink OpenSL_ES_sink
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-spacing", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-padding", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-margin", using default value (reason: stof: no conversion)
+polybar|error: Invalid value for "settings.format-offset", using default value (reason: stof: no conversion)
+polybar|notice:  Loaded font "Terminus:Medium:size=9" (name=Terminus, offset=2, file=/data/data/com.termux/files/home/.fonts/bitmaps/terminus/ter-u12n.otb)
+polybar|notice:  Loaded font "waffle:size=12" (name=waffle, offset=2, file=/data/data/com.termux/files/home/.fonts/icons/waffle.bdf)
+ERROR: openbox-xdg-autostart requires PyXDG to be installed
+
+
+polybar|error: tray: Failed to put tray above 0x0e00001 in the stack (XCB_MATCH (8))
+
+Fri Aug 12 13:08:10 2022
+ Connections: accepted: 127.0.0.1::56052
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VeNCrypt(19)
+ SVeNCrypt:   Client requests security type TLSVnc (258)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+Obt-Message: Failed to open an Input Method
+client(1200000): Reserved pid(18317).
+client(1200000): Reserved cmdname(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+AllocNewConnection: client index = 9, socket fd = 17
+client(1200000): Released pid(18317).
+client(1200000): Released cmdline(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+client(1200000): Reserved pid(18315).
+client(1200000): Reserved cmdname(xfce4-termina) and cmdargs(NULL).
+AllocNewConnection: client index = 9, socket fd = 17
+client(1400000): Reserved pid(18319).
+client(1400000): Reserved cmdname(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+AllocNewConnection: client index = 10, socket fd = 18
+client(1400000): Released pid(18319).
+client(1400000): Released cmdline(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+Failed to connect to session manager: Failed to connect to the session manager: SESSION_MANAGER environment variable not defined
+client(1400000): Reserved pid(18435).
+client(1400000): Reserved cmdname(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+AllocNewConnection: client index = 10, socket fd = 18
+client(1400000): Released pid(18435).
+client(1400000): Released cmdline(dbus-launch) and cmdargs(--autolaunch=b6637211fc2d8a5ebfebe85762f5ab8b --binary-syntax --close-stder).
+client(1400000): Reserved pid(18506).
+client(1400000): Reserved cmdname(netsurf-gtk3) and cmdargs(https://www.google.co).
+AllocNewConnection: client index = 10, socket fd = 18
+
+Fri Aug 12 13:09:37 2022
+ VNCSConnST:  closing 127.0.0.1::56052: Clean disconnection
+ EncodeManager: Framebuffer updates: 3519
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 461 rects, 4.00342 Mpixels
+ EncodeManager:            7.20312 KiB (1:2171.8 ratio)
+ EncodeManager:     Bitmap RLE: 168 rects, 260.766 kpixels
+ EncodeManager:                 8.76758 KiB (1:116.405 ratio)
+ EncodeManager:     Indexed RLE: 784 rects, 1.13279 Mpixels
+ EncodeManager:                  185.694 KiB (1:23.8787 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 3.351 krects, 11.0714 Mpixels
+ EncodeManager:                  9.34893 MiB (1:4.52162 ratio)
+ EncodeManager:   Total: 4.764 krects, 16.4683 Mpixels
+ EncodeManager:          9.54587 MiB (1:6.58675 ratio)
+ TLS:         TLS session wasn't terminated gracefully
+ TcpSocket:   unable to get peer name for socket
+ Connections: closed: ::0
+ ComparingUpdateTracker: 772.828 Mpixels in / 10.2154 Mpixels out
+ ComparingUpdateTracker: (1:75.6531 ratio)
